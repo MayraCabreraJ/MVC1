@@ -8,11 +8,11 @@ namespace MVC1.Models
 {
     public class Client
    {
+  
     
-    [Key]
-    public int ClientId { get; set; }
     [Required]
-    public string Name { get; set; }
+        public int ClientId { get; set; }
+        public string Name { get; set; }
     public string Email { get; set; }
 
 }

@@ -8,7 +8,7 @@ namespace MVC1.Models
 {
     public class DataContext:DbContext
     {
-        public DataContext():base("DefaultConnection4")
+        public DataContext():base("DefaultConnection6")
         {
 
         }
@@ -16,5 +16,7 @@ namespace MVC1.Models
         public System.Data.Entity.DbSet<MVC1.Models.Product> Products { get; set; }
 
         public System.Data.Entity.DbSet<MVC1.Models.Client> Clients { get; set; }
+
+        public System.Data.Entity.DbSet<MVC1.Models.Sale> Sales { get; set; }
     }
 }
